@@ -1,5 +1,9 @@
-import * as dotenv from 'dotenv'
-dotenv.config()
+import http from 'http';
 import app from './app';
 
-app.listen(process.env.PORT);
+app.set('port', process.env.PORT || 3000);
+const server = http.createServer(app);
+
+server.listen(process.env.PORT || 3000, () => {
+  console.log("Server is running");
+});
