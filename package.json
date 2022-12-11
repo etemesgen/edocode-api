@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Edocode api for personal website and admin panel",
   "main": "app.ts",
+  "type": "commonjs",
   "scripts": {
     "build": "tsc --project ./",
     "start:dev": "nodemon src/server.ts",
-    "start:prod": "node dist/server.js",
+    "start:prod": "npx ts-node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Edomiyas Temesgen",
