@@ -1,1 +1,1 @@
-Backend for my personal website admin panel
+API for my personal website and admin panel

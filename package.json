@@ -1,7 +1,7 @@
 {
-  "name": "edocode-backend",
+  "name": "edocode-api",
   "version": "1.0.0",
-  "description": "Edocode back-end for admin panel",
+  "description": "Edocode api for personal website and admin panel",
   "main": "app.ts",
   "scripts": {
     "build": "tsc --project ./",
@@ -20,6 +20,7 @@
     "mongoose": "^6.7.3"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.13",
     "@types/crypto-js": "^4.1.1",
     "@types/express": "^4.17.14",
     "@types/jsonwebtoken": "^8.5.9",
